@@ -117,22 +117,6 @@ export default function LoginPage() {
                     </div>
 
                     <Button className="w-full">Entrar</Button>
-
-                    <div className="w-full flex items-center gap-2">
-                        <span className="w-full block h-0.5 bg-foreground/20 " />
-                        <span className="text-sm">Ou</span>
-                        <span className="w-full block h-0.5 bg-foreground/20 " />
-                    </div>
-
-                    <div className="flex gap-1 text-sm justify-center">
-                        <p>Não tem uma conta?</p>
-                        <Link
-                            href="register"
-                            className="underline text-primary flex gap-1 items-center"
-                        >
-                            Registre-se
-                        </Link>
-                    </div>
                 </form>
             </div>
             <div className="md:w-1/2 w-full bg-radial from-primary to-[#005EBD] rounded-md overflow-hidden"></div>
