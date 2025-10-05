@@ -88,83 +88,117 @@ export const steps: Tour[] = [
                 showSkip: false,
                 pointerPadding: 10,
                 pointerRadius: 10,
-                nextRoute: "/ipwhitelist",
+                nextRoute: "/profile",
                 prevRoute: "/jogadores",
             },
             {
                 icon: "",
-                title: "IP Whitelist",
+                title: "Perfil",
                 content: (
                     <>
-                        <p>Gerencie os IPs autorizados para acesso.</p>
+                        <p>Editar seu perfil ficou mais fácil e seguro.</p>
                     </>
                 ),
-                selector: "#link-ipwhitelist",
+                selector: "#link-profile",
                 side: "right",
                 showControls: true,
                 showSkip: false,
                 pointerPadding: 10,
                 pointerRadius: 10,
-                nextRoute: "/custom",
                 prevRoute: "/transacoes",
             },
             {
                 icon: "",
-                title: "Customização Esporte",
+                title: "Perfil",
                 content: (
                     <>
                         <p>
-                            Personalize cores e aparência do site de esportes.
+                            E você pode baixar suas informações em formato json
+                            caso precise!
                         </p>
                     </>
                 ),
-                selector: "#link-custom",
-                side: "right",
-                showControls: true,
-                showSkip: false,
-                pointerPadding: 10,
-                pointerRadius: 10,
-                nextRoute: "/custom",
-                prevRoute: "/ipwhitelist",
-            },
-            {
-                icon: "",
-                title: "Temas Pré-Definidos",
-                content: (
-                    <>
-                        <p>
-                            Cansado de ter que escolher mil opções de cores?
-                            Aqui você pode escolher entre os temas
-                            pré-definidos.
-                        </p>
-                    </>
-                ),
-                selector: "#pre-defined",
-                side: "right",
+                selector: "#download-infos",
+                side: "bottom",
                 showControls: true,
                 showSkip: false,
                 pointerPadding: 10,
                 pointerRadius: 10,
             },
+            // {
+            //     icon: "",
+            //     title: "IP Whitelist",
+            //     content: (
+            //         <>
+            //             <p>Gerencie os IPs autorizados para acesso.</p>
+            //         </>
+            //     ),
+            //     selector: "#link-ipwhitelist",
+            //     side: "right",
+            //     showControls: true,
+            //     showSkip: false,
+            //     pointerPadding: 10,
+            //     pointerRadius: 10,
+            //     nextRoute: "/custom",
+            //     prevRoute: "/transacoes",
+            // },
+            // {
+            //     icon: "",
+            //     title: "Customização Esporte",
+            //     content: (
+            //         <>
+            //             <p>
+            //                 Personalize cores e aparência do site de esportes.
+            //             </p>
+            //         </>
+            //     ),
+            //     selector: "#link-custom",
+            //     side: "right",
+            //     showControls: true,
+            //     showSkip: false,
+            //     pointerPadding: 10,
+            //     pointerRadius: 10,
+            //     nextRoute: "/custom",
+            //     prevRoute: "/ipwhitelist",
+            // },
+            // {
+            //     icon: "",
+            //     title: "Temas Pré-Definidos",
+            //     content: (
+            //         <>
+            //             <p>
+            //                 Cansado de ter que escolher mil opções de cores?
+            //                 Aqui você pode escolher entre os temas
+            //                 pré-definidos.
+            //             </p>
+            //         </>
+            //     ),
+            //     selector: "#pre-defined",
+            //     side: "right",
+            //     showControls: true,
+            //     showSkip: false,
+            //     pointerPadding: 10,
+            //     pointerRadius: 10,
+            // },
 
-            {
-                icon: "",
-                title: "Customização Esporte",
-                content: (
-                    <>
-                        <p>
-                            Se ainda não gostou dos temas pré-definidos, aqui
-                            você pode criar o seu próprio tema.
-                        </p>
-                    </>
-                ),
-                selector: "#customize",
-                side: "right",
-                showControls: true,
-                showSkip: false,
-                pointerPadding: 10,
-                pointerRadius: 10,
-            },
+            // {
+            //     icon: "",
+            //     title: "Customização Esporte",
+            //     content: (
+            //         <>
+            //             <p>
+            //                 Se ainda não gostou dos temas pré-definidos, aqui
+            //                 você pode criar o seu próprio tema.
+            //             </p>
+            //         </>
+            //     ),
+            //     selector: "#customize",
+            //     side: "right",
+            //     showControls: true,
+            //     showSkip: false,
+            //     pointerPadding: 10,
+            //     pointerRadius: 10,
+            // },
 
             {
                 icon: "",

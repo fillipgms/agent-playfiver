@@ -225,7 +225,11 @@ export default function ProfilePage() {
                         </div>
                     </div>
                     <div className="flex gap-3">
-                        <Button variant="secondary" onClick={handleDownload}>
+                        <Button
+                            id="download-infos"
+                            variant="secondary"
+                            onClick={handleDownload}
+                        >
                             <DownloadIcon className="w-4 h-4" />
                             Baixar Informações
                         </Button>
