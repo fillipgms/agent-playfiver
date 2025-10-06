@@ -10,7 +10,7 @@ import {
     UsersThreeIcon,
     ArrowsLeftRightIcon,
     FileTextIcon,
-    // PaletteIcon,
+    PaletteIcon,
     UserCircleIcon,
 } from "@phosphor-icons/react";
 import GridIcon from "@/public/GridIcon";
