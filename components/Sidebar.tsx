@@ -39,11 +39,11 @@ const links = [
     {
         section: "Configurações",
         items: [
-            {
-                icon: <PaletteIcon size={24} />,
-                name: "Customização Esporte",
-                url: "/custom",
-            },
+            // {
+            //     icon: <PaletteIcon size={24} />,
+            //     name: "Customização Esporte",
+            //     url: "/custom",
+            // },
             {
                 icon: <UserCircleIcon size={24} />,
                 name: "Perfil",
